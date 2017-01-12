@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.1
+ * Plugin Version: 1.2
  * 
  */
 
@@ -19,7 +19,7 @@ $l['cawm_Desc'] = 'Announcements with the possibility of changing the style. (wi
 $l['cawm_Web'] = 'https://mods.mybb.com/view/announcements-with-marquee';
 $l['cawm_Auth'] = 'Alex & updated by Vintagedaddyo';
 $l['cawm_AuthSite'] = 'http://community.mybb.com/user-6029.html';
-$l['cawm_Ver'] = '1.1';
+$l['cawm_Ver'] = '1.2';
 $l['cawm_Compat'] = '18*';
 
 // Setting 0
@@ -52,5 +52,15 @@ $l['cawm_name_setting_4'] = 'anncc';
 $l['cawm_title_setting_4'] = 'Text Color';
 $l['cawm_description_setting_4'] = 'Text Color (Ex: #FFFFFF/black) .';
 
+// Settings 5
 
+$l['cawm_name_5'] = "showanncc_i";
+$l['cawm_title_5'] = "Enable Index";
+$l['cawm_desc_5'] = "Display in the forum header?";
+
+// Settings 6
+
+$l['cawm_name_6'] = "showanncc_p";
+$l['cawm_title_6'] = "Enable Portal";
+$l['cawm_desc_6'] = "Display in the portal header?";
 ?>
