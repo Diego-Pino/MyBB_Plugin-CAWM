@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.2
+ * Plugin Version: 1.3
  * 
  */
 
@@ -56,29 +56,29 @@ if($db->field_exists("cawmsis", "users"))
 	}
 	
     $settings_group = array(
-        'gid'          => 'NULL',
+        'gid'          => '0',
         'name' => $lang->cawm_name_setting_0,
         'title' => $lang->cawm_title_setting_0,
         'description' => $lang->cawm_description_setting_0,
         'disporder'    => '1',
-        'isdefault'    => 'no'
+        'isdefault'    => '0'
     );
     $db->insert_query('settinggroups', $settings_group);
     $gid = $db->insert_id();
 	
     $setting_1 = array(
-        'sid'          => 'NULL',
+        'sid'          => '0',
         'name' => $lang->cawm_name_setting_1,
         'title' => $lang->cawm_title_setting_1,
         'description' => $lang->cawm_description_setting_1,
         'optionscode'  => 'textarea',
-        'value'        => '<b>Edit Announcements Settings!</b>',
+        'value'        => $lang->cawm_announcement_1,
         'disporder'    => '3',
         'gid'          => intval( $gid )
     );
 
 	$setting_2 = array(
-	'sid'          => 'NULL',
+	'sid'          => '0',
         'name' => $lang->cawm_name_setting_2,
         'title' => $lang->cawm_title_setting_2,
         'description' => $lang->cawm_description_setting_2,
@@ -89,7 +89,7 @@ if($db->field_exists("cawmsis", "users"))
     );
 
     $setting_3 = array(
-	'sid'          => 'NULL',
+	'sid'          => '0',
         'name' => $lang->cawm_name_setting_3,
         'title' => $lang->cawm_title_setting_3,
         'description' => $lang->cawm_description_setting_3,
@@ -100,7 +100,7 @@ if($db->field_exists("cawmsis", "users"))
     );
 
  $setting_4 = array(
-	'sid'          => 'NULL',
+	'sid'          => '0',
         'name' => $lang->cawm_name_setting_4,
         'title' => $lang->cawm_title_setting_4,
         'description' => $lang->cawm_description_setting_4,
