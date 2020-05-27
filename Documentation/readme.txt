@@ -47,4 +47,4 @@ Enjoy :D
 -englishgb
 -espanol
 -french
--italiano *  still need to do (still in English)
+-italiano
