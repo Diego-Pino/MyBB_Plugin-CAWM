@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.4
+ * Plugin Version: 1.4.1
  * 
  */
 

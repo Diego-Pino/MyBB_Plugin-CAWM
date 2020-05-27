@@ -14,6 +14,6 @@
 
 // news ticker
 
-$l['cawm_news_ticker'] = ' Forum News';
+$l['cawm_news_ticker'] = ' Notizie sul forum';
 
 ?>
